@@ -1,0 +1,29 @@
+body {
+  font-family: helvetica;
+  font-size: 3rem;
+  border: 3px solid #89ECC9;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 1rem;
+  border-radius: 10px; }
+  body .calculator {
+    text-align: center;
+    padding: 1rem;
+    background-color: #C9F3E4; }
+    body .calculator input {
+      display: block;
+      width: 40%;
+      font-size: 2rem;
+      height: 4rem;
+      margin: 0 auto;
+      padding-bottom: 1rem;
+      border: 1px solid black; }
+    body .calculator button {
+      border-radius: 20px;
+      width: 40%;
+      font-size: 2rem;
+      margin-top: 1.5rem;
+      background-color: #60B094;
+      border: 1px solid black; }
+
+/*# sourceMappingURL=styles.css.map */
