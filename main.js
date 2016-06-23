@@ -5,4 +5,5 @@ function calculate() {
   var secondNumber = document.querySelector('.number-2').value;
   var sum = Number(firstNumber) + Number(secondNumber);
   console.log(sum);
+  document.querySelector('.result').value = sum;
 }

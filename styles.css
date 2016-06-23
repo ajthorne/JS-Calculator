@@ -10,19 +10,21 @@ body {
     text-align: center;
     padding: 1rem;
     background-color: #C9F3E4; }
-    body .calculator input {
+    body .calculator input, body .calculator output {
       display: block;
       width: 40%;
       font-size: 2rem;
       height: 4rem;
       margin: 0 auto;
       padding-bottom: 1rem;
-      border: 1px solid black; }
+      border: 1px solid black;
+      background-color: white; }
     body .calculator button {
       border-radius: 20px;
       width: 40%;
       font-size: 2rem;
       margin-top: 1.5rem;
+      margin-bottom: 1.5rem;
       background-color: #60B094;
       border: 1px solid black; }
 
